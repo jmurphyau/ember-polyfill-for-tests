@@ -17,7 +17,7 @@ module.exports = {
 
   shouldIncludePolyfill: function() {
     var babelOptions = getBabelOptions(this);
-    if (this.env !== 'production' && babelOptions.includePolyfill !== true) {
+    if (this.app.env === 'test' && babelOptions.includePolyfill !== true) {
       return true;
     }
   },
