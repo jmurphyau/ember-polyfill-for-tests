@@ -1,0 +1,29 @@
+{
+  "name": "ember-polyfill-for-tests",
+  "version": "0.0.1",
+  "description": "Adds Babel's browser polyfill for tests",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmurphyau/ember-polyfill-for-tests.git"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "author": "James Murphy <jmurphyau@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmurphyau/ember-polyfill-for-tests/issues"
+  },
+  "homepage": "https://github.com/jmurphyau/ember-polyfill-for-tests",
+  "ember-addon": {
+    "main": "index.js"
+  },
+  "dependencies": {
+    "ember-cli-babel": "^5.1.5",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "1.0.0",
+    "babel-core": "^5.0.0",
+    "resolve": "^1.1.2"
+  }
+}
